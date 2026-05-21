@@ -122,9 +122,9 @@ namespace CampusNavegacion
 
             for (int n = 0; n <= maxNivel; n++)
             {
-                sb.Append("Nivel {n}: ");
+                sb.Append("Nivel" + " " + n + ":" );
                 bool primero = true;
-
+                    
                 for (int i = 0; i < VisitasBFS.Count; i++)
                 {
                     string e = VisitasBFS[i];
